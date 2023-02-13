@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <include relativeToChangelogFile="true" file="migrations/todo/create_lists.sql" />
+    <include relativeToChangelogFile="true" file="migrations/todo/create_tasks.sql" />
+    <include relativeToChangelogFile="true" file="migrations/todo/create_tags.sql" />
+    <include relativeToChangelogFile="true" file="migrations/todo/create_tags_tasks.sql" />
+    <include relativeToChangelogFile="true" file="migrations/todo/create_attachments.sql" />
+    <include relativeToChangelogFile="true" file="migrations/todo/create_comments.sql" />
+    <include relativeToChangelogFile="true" file="migrations/todo/create_reminders.sql" />
+
+
+</databaseChangeLog>
